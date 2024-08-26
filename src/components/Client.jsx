@@ -1,0 +1,48 @@
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+
+import apostrof from "../assets/img/apostrof.png";
+import bahama from "../assets/img/bahama.png";
+import habatour from "../assets/img/habatour.png";
+import halakah from "../assets/img/halakah.png";
+import kronika from "../assets/img/kronika.png";
+import nyamanin from "../assets/img/nyamanin.png";
+import realtour from "../assets/img/realtour.png";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper';
+import { Autoplay, FreeMode, Navigation } from 'swiper/modules';
+
+const Client = () => {
+    SwiperCore.use([Autoplay, FreeMode, Navigation]);
+    return (
+        <section className="partners max-w-2xl mx-auto py-5 my-5">
+            <h1 className="font-Leaguespartan text-3xl text-center font-bold">Our Clients</h1>
+            <Swiper
+                loop={true}
+                freeMode={true}
+                navigation={true}
+                autoplay={{
+                    delay: 0,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                }}
+                speed={2000}
+                slidesPerView="3"
+                spaceBetween={42}
+                className='items-center justify-center'>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={apostrof} alt="apostrof" /></SwiperSlide>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={bahama} alt="bahama" /></SwiperSlide>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={habatour} alt="habatour" /></SwiperSlide>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={halakah} alt="halakah" /></SwiperSlide>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={kronika} alt="kronika" /></SwiperSlide>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={nyamanin} alt="nyamanin" /></SwiperSlide>
+                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={realtour} alt="realtour" /></SwiperSlide>
+            </Swiper>
+        </section>
+    );
+};
+
+export default Client;

@@ -1,0 +1,255 @@
+/* Gaya untuk tombol navigasi (arrow) slider */
+.slider-for .slick-prev, 
+.slider-for .slick-next {
+  width: 40px;
+  height: 40px;
+  background: none; /* Menghapus background tombol */
+  color: #ffffff; /* Warna ikon */
+  z-index: 1; /* Agar tombol berada di atas konten slider */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Menyesuaikan gaya tombol prev */
+.slider-for .slick-prev {
+  left: 10px; /* Jarak dari sisi kiri slider */
+}
+
+/* Menyesuaikan gaya tombol next */
+.slider-for .slick-next {
+  right: 10px; /* Jarak dari sisi kanan slider */
+}
+
+/* Gaya untuk ikon dalam tombol navigasi */
+.slider-for .slick-prev:before, 
+.slider-for .slick-next:before {
+  font-size: 24px; /* Ukuran ikon */
+  color: #ffffff; /* Warna ikon */
+}
+
+/* Menambahkan efek hover pada tombol */
+.slider-for .slick-prev:hover, 
+.slider-for .slick-next:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#hero .wrapper{
+  width:55%;
+}
+
+.sideWrap{
+  right: -400px;
+  top: 100px;
+  transform: rotate(45deg);
+  font-size: 48px;
+  width: 800px;
+  height: 500px;
+}
+
+.partners{
+  width: 60%;
+}
+
+.swiper-slide img{
+  width: 180px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.text-decoration-none{
+  color: #a1a1a1 !important;
+}
+
+.slider-for {
+  width: 65%;
+  margin: 0 auto;
+}
+.slider-nav {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.slider-for button{
+  padding: 10px 28px;
+  border-radius: 30px;
+  border: none;
+}
+.slider-for .fw-bold.button-blur{
+  backdrop-filter: blur(4px) !important;
+  color: white;
+  background-color: rgba(229, 231, 235, 0.2) !important;
+}
+
+.slider-for .text-white.position-absolute{
+  margin: -110px 0 0 30px;
+}
+
+.slider-for .d-flex.gap-4{
+  margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .sideWrap{
+    right: -470px;
+    top: 150px;
+    transform: rotate(45deg);
+    font-size: 48px;
+    width: 800px;
+    height: 400px;
+  }
+
+  .partners{
+    width: 70%;
+  }
+  
+  .swiper-slide img{
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .slider-for {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .slider-nav {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 976px) {
+  .sideWrap{
+    right: -470px;
+    top: 150px;
+    transform: rotate(45deg);
+    font-size: 48px;
+    width: 700px;
+    height: 400px;
+  }
+
+  .partners{
+    width: 80%;
+  }
+  
+  .swiper-slide img{
+    width: 160px;
+    height: 145px;
+    object-fit: contain;
+  }
+
+  .slider-for {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .slider-nav {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sideWrap{
+    right: -600px;
+    top: 200px;
+    transform: rotate(45deg);
+    font-size: 48px;
+    width: 700px;
+    height: 370px;
+  }
+
+  #hero .wrapper{
+    width: 100%;
+  }
+
+  .partners{
+    width: 90%;
+  }
+  
+  .swiper-slide img{
+    width: 150px;
+    height: 135px;
+    object-fit: contain;
+  }
+
+  .slider-for {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slider-nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .slider-for .text-white.position-absolute{
+    margin: -90px 0 0 30px;
+  }
+  
+  .slider-for .d-flex.gap-4{
+    margin: 20px 0 0 0;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .sideWrap{
+    right: -650px;
+    top: 220px;
+    transform: rotate(45deg);
+    font-size: 48px;
+    width: 700px;
+    height: 370px;
+  }
+
+  .partners{
+    width: 85%;
+  }
+  
+  .swiper-slide img{
+    width: 110px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .product .card-body{
+    height: 400px;
+  }
+
+  
+.slider-for h4{
+  font-size: 18px;
+}
+
+.slider-for button{
+  padding: 5px 14px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+}
+
+.slider-for .text-white.position-absolute{
+  margin: -80px 0 0 30px;
+}
+
+.slider-for .d-flex.gap-4{
+  margin: 20px 0 0 0;
+}
+}
+
+@media screen and (max-width: 380px) {
+  .slider-for h4{
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .slider-for .text-white.position-absolute{
+    margin: -60px 0 0 15px;
+  }
+  
+  .slider-for .d-flex.gap-4{
+    margin: 10px 0 0 0;
+  }
+
+  .rounded-circle{
+    display: none;
+  }
+}
