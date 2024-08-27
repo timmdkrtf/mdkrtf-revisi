@@ -126,13 +126,30 @@
 }
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev{
-  color: black !important;
-  opacity: 0.3 !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #a1a1a1;
+  width: 20px !important;
+  height: 25px !important;
+  border-radius: 5px;
+  right: 0 !important;
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-prev{
-  color: black !important;
-  opacity: 0.3 !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #a1a1a1;
+  width: 20px !important;
+  height: 25px !important;
+  border-radius: 5px;
+  left: 0 !important;
+}
+
+.swiper-button-next:after{
+  font-size: 15px !important;
+  font-weight: 800;
+}
+.swiper-button-prev:after{
+  font-size: 15px !important;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 1200px) {
