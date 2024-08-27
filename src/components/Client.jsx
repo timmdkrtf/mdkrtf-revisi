@@ -32,14 +32,32 @@ const Client = () => {
                 speed={2000}
                 slidesPerView="3"
                 spaceBetween={42}
+                breakpoints={{
+                    280: {
+                        slidesPerView: 1.7,
+                        spaceBetween: 0,
+                    },
+                    576: {
+                      slidesPerView: 3,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 40,
+                    },
+                  }}
                 className='items-center justify-center'>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={apostrof} alt="apostrof" /></SwiperSlide>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={bahama} alt="bahama" /></SwiperSlide>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={habatour} alt="habatour" /></SwiperSlide>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={halakah} alt="halakah" /></SwiperSlide>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={kronika} alt="kronika" /></SwiperSlide>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={nyamanin} alt="nyamanin" /></SwiperSlide>
-                <SwiperSlide className="!flex min-h-max items-center justify-center !w-fit"><img src={realtour} alt="realtour" /></SwiperSlide>
+                <SwiperSlide className="apostrof"><img src={apostrof} alt="apostrof" /></SwiperSlide>
+                <SwiperSlide className="bahana"><img src={bahama} alt="bahana" /></SwiperSlide>
+                <SwiperSlide className="habatour"><img src={habatour} alt="habatour" /></SwiperSlide>
+                <SwiperSlide className="halakah"><img src={halakah} alt="halakah" /></SwiperSlide>
+                <SwiperSlide className="kronika"><img src={kronika} alt="kronika" /></SwiperSlide>
+                <SwiperSlide className="nyamanin"><img src={nyamanin} alt="nyamanin" /></SwiperSlide>
+                <SwiperSlide className="realtour"><img src={realtour} alt="realtour" /></SwiperSlide>
             </Swiper>
         </section>
     );

@@ -36,21 +36,21 @@ function Product() {
           <p className="text-secondary fs-5">Our top products</p>
         </div>
 
-        <div className="row">
-          <div className="col-lg-6 mb-4">
+        <div className="row justify-content-center">
+          <div className="col-lg-4 mb-4">
             <div className="card shadow-sm border-0 hover-scale" style={styles.card}>
               <div className="card-body p-4">
                 <div className="d-flex justify-content-center mb-3 flex-wrap">
                   <div className="flex-shrink-0 mb-3">
-                    <TbBrandCake className="" style={{width:"220px", height:"220px"}} />
+                    <TbBrandCake className="" style={{width:"100px", height:"100px"}} />
                   </div>
                   <div className="d-flex">
-                  <h1 className=" hover:text-custom-white text-4xl pe-3 font-bold font-Leaguespartan ">
+                  <h1 className=" hover:text-custom-white fs-3 pe-3 font-bold font-Leaguespartan ">
                     01
                   </h1>
                   <div className="ml-3">
                     <h5 className="card-title">Brand Identity</h5>
-                    <p className="card-text ">
+                    <p className="card-text" style={{textAlign: "justify"}}>
                     Perjalanan menuju kesuksesan brand dimulai dengan fondasi
                       yang kuat. mdkrtf akan menjadi partner Anda dalam
                       membangun identitas merek yang kokoh. Mulai dari riset
@@ -83,20 +83,20 @@ function Product() {
             </div>
           </div>
 
-          <div className="col-lg-6 mb-4">
+          <div className="col-lg-4 mb-4">
             <div className="card shadow-sm border-0 hover-scale" style={styles.card}>
               <div className="card-body p-4">
                 <div className="d-flex justify-content-center mb-3 flex-wrap">
                   <div className="flex-shrink-0 mb-3">
-                    <FaCamera className="" style={{width:"220px", height:"220px"}} />
+                    <FaCamera className="" style={{width:"100px", height:"100px"}} />
                   </div>
                   <div className="d-flex">
-                  <h1 className=" hover:text-custom-white text-4xl pe-3 font-bold font-Leaguespartan ">
+                  <h1 className=" hover:text-custom-white fs-3 pe-3 font-bold font-Leaguespartan ">
                     02
                   </h1>
                   <div className="ml-3">
                     <h5 className="card-title">Documentation</h5>
-                    <p className="card-text">
+                    <p className="card-text" style={{textAlign: "justify"}}>
                     Dengan lensa yang tajam, kami menangkap setiap detail
                       penting, emosi, dan atmosfer dalam setiap moment. Hasilnya
                       adalah dokumentasi berkualitas tinggi yang tidak hanya
