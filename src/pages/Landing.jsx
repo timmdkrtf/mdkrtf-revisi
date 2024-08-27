@@ -9,7 +9,7 @@ import ScrollTop from "../components/ScrollTop"
 
 export default function Landing(){
     return (
-        <div>
+        <div style={{backgroundColor:"#F8F9FA"}}>
             <ScrollTop />
             <Navbar />
             <Home id={Home} />
