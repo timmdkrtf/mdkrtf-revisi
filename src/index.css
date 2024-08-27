@@ -176,6 +176,40 @@
     object-fit: contain;
   }
 
+  
+.realtour img{
+  width: 155px;
+  height: 140px;
+  object-fit: contain;
+  margin-top: -10px;
+}
+
+.nyamanin img{
+  width: 155px;
+  height: 140px;
+  object-fit: contain;
+  margin-top: -1px;
+}
+
+.kronika img, .habatour img{
+  width: 150;
+  height: 135px;
+  object-fit: contain;
+}
+
+.bahana img{
+  width: 180px;
+  height: 170px;
+  object-fit: contain;
+  margin-top: 0px;
+}
+
+.apostrof img, .halakah img{
+  width: 160px;
+  height: 145px;
+  object-fit: contain;
+}
+
   .slider-for {
     width: 90%;
     margin: 0 auto;
@@ -289,5 +323,11 @@
 
   .rounded-circle{
     display: none;
+  }
+
+  .swiper-slide img{
+    width: 90px;
+    height: 80px;
+    object-fit: contain;
   }
 }
