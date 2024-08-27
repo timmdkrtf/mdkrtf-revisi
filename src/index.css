@@ -43,6 +43,10 @@
   width:55%;
 }
 
+.about .fs-5.fw-light.py-4{
+  font-size: 20px;
+}
+
 .sideWrap{
   right: -400px;
   top: 100px;
@@ -308,6 +312,10 @@
 
 .slider-for .d-flex.gap-4{
   margin: 20px 0 0 0;
+}
+
+.about .fs-5.fw-light.py-4{
+  font-size: 16px !important;
 }
 }
 

@@ -9,11 +9,11 @@ const About = () => {
     <section id="about" className="bg-black text-white py-4 px-5" style={{ height: "100vh", display: "flex", flexDirection: "column", justifyContent: "center" }}> 
     <div className="container">
       <div className="d-flex justify-content-between align-items-center flex-column flex-md-row">
-        <div className="w-100 py-5 d-flex align-items-center justify-content-between">
-          <div className="py-5"> 
+        <div className="w-100 pt-3 d-flex align-items-center justify-content-between">
+          <div className="py-3"> 
             <h1 className="display-5 fw-normal mb-2">Creative Powerhouse</h1>
             <h1 className="display-5 fw-normal mb-2">Where imagination meets innovation.</h1>
-            <div className="fs-5 fw-light py-4">
+            <div className="fw-light py-4">
               Percayakan kebutuhan brand identity dan dokumentasi anda kepada
               kami <br />
               dan lihat bagaimana kami dapat membantu mengubah impian anda
@@ -22,7 +22,7 @@ const About = () => {
           </div>
         </div>
         <ScrollTrigger onEnter={() => setCounterState(true)} onExit={() => setCounterState(false)}>
-          <div className="d-flex justify-content-between align-items-center gap-5 text-center py-5">
+          <div className="d-flex justify-content-between align-items-center gap-5 text-center">
             <div>
               <h2 className="display-3 fw-bold text-primary">
                 {counterState && <CountUp start={0} end={13} duration={2.75} />}+

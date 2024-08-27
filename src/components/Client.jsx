@@ -33,7 +33,7 @@ const Client = () => {
                 slidesPerView="3"
                 spaceBetween={42}
                 breakpoints={{
-                    380: {
+                    280: {
                         slidesPerView: 2.1,
                         spaceBetween: 0,
                     },
