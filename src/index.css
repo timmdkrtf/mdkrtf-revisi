@@ -93,10 +93,6 @@
   object-fit: contain;
 }
 
-.text-decoration-none{
-  color: #a1a1a1 !important;
-}
-
 .slider-for {
   width: 65%;
   margin: 0 auto;
@@ -152,6 +148,24 @@
 .swiper-button-prev:after{
   font-size: 20px !important;
   font-weight: 800;
+}
+
+#product .img-icon{
+  width: 100px;
+  height: 100px
+}
+
+#product .card-body.p-4 p{
+  font-size: 15px;
+}
+
+#product .card-bet .card-body.p-4{
+  height: auto;
+}
+
+#product .card-bet{
+  width: 450px;
+  height: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -245,6 +259,11 @@
     width: 90%;
     margin: 0 auto;
   }
+
+  #product .card-bet{
+    width: 350px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 768px) {
   .sideWrap{
@@ -285,6 +304,24 @@
   
   .slider-for .d-flex.gap-4{
     margin: 20px 0 0 0;
+  }
+
+  #product .card-bet{
+    width: 50%;
+    height: auto;
+  }
+  #product .card-bet h1{
+    padding: 0 10px 0 0 !important;
+    font-size: 20px !important;
+  }
+
+  #product .img-icon{
+    width: 80px;
+    height: 80px
+  }
+
+  #product .card-body.p-4 p{
+    font-size: 14px;
   }
 
 }
@@ -336,6 +373,30 @@
 .about .fs-5.fw-light.py-4{
   font-size: 16px !important;
 }
+
+#product .card-body.p-4{
+  padding: 10px !important;
+}
+#product .card-body.p-4 p{
+  font-size: 13px !important;
+}
+#product .card-body.p-4 .small-text-center{
+  font-size: 12px !important;
+}
+#product .card-body.p-4 .position-absolute svg{
+  width: 20px !important;
+}
+
+#product .card-bet{
+  padding: 0 6px !important;
+}
+
+#product .card-bet h1{
+  font-size: 17px !important;
+}
+#product .card-bet h5{
+  font-size: 17px !important;
+}
 }
 
 @media screen and (max-width: 380px) {
@@ -365,6 +426,40 @@
     
 .realtour img{
   margin-top: -5px;
+}
+
+#product .img-icon{
+  width: 60px;
+  height: 60px
+}
+
+#product .card-body.p-4{
+  padding: 10px !important;
+}
+#product .card-body.p-4 p{
+  font-size: 11px !important;
+}
+#product .card-body.p-4 .small-text-center{
+  display: none;
+}
+#product .card-body.p-4 .position-absolute svg{
+  width: 20px !important;
+}
+
+#product .card-bet{
+  padding: 0 6px !important;
+}
+
+#product .card-bet h1{
+  font-size: 14px !important;
+  padding: 0 5px 0 0 !important;
+}
+#product .card-bet h5{
+  font-size: 14px !important;
+}
+
+#product .position-absolute{
+  margin: 0 0 0 -10px !important;
 }
 
 }
