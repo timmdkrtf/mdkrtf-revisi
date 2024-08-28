@@ -13,10 +13,37 @@ import realtour from "../assets/img/realtour.png";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
+import {useRef, useEffect} from 'react';
 import { Autoplay, FreeMode, Navigation } from 'swiper/modules';
 
 const Client = () => {
     SwiperCore.use([Autoplay, FreeMode, Navigation]);
+
+    const swiperRef = useRef(null);
+
+    useEffect(() => {
+        const swiperInstance = swiperRef.current?.swiper;
+        
+        if (swiperInstance) {
+            // Tambahkan event listener ke tombol navigasi
+            const nextButton = document.querySelector('.swiper-button-next');
+            const prevButton = document.querySelector('.swiper-button-prev');
+
+            const stopAutoplay = () => {
+                swiperInstance.autoplay.stop();
+                swiperInstance.autoplay.start(); // Mulai ulang autoplay setelah interaksi
+            };
+
+            nextButton.addEventListener('click', stopAutoplay);
+            prevButton.addEventListener('click', stopAutoplay);
+
+            // Cleanup
+            return () => {
+                nextButton.removeEventListener('click', stopAutoplay);
+                prevButton.removeEventListener('click', stopAutoplay);
+            };
+        }
+    }, []);
     return (
         <section className="partners max-w-2xl mx-auto py-5 my-5">
             <h1 className="font-Leaguespartan text-3xl text-center font-bold">Our Clients</h1>
@@ -25,11 +52,11 @@ const Client = () => {
                 freeMode={true}
                 navigation={true}
                 autoplay={{
-                    delay: 1000,
+                    delay: 800,
                     disableOnInteraction: false,
                     pauseOnMouseEnter: true,
                 }}
-                speed={2000}
+                speed={1000}
                 slidesPerView="3"
                 spaceBetween={42}
                 breakpoints={{
