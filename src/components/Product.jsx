@@ -50,8 +50,8 @@ function Product() {
                   </h1>
                   <div className="ml-3">
                     <h5 className="card-title">Brand Identity</h5>
-                    <p className="card-text" style={{textAlign: "justify"}}>
-                    Perjalanan menuju kesuksesan brand dimulai dengan fondasi
+                    <p className="card-text" id="text">
+                      Perjalanan menuju kesuksesan brand dimulai dengan fondasi
                       yang kuat. mdkrtf akan menjadi partner Anda dalam
                       membangun identitas merek yang kokoh. Mulai dari riset
                       mendalam terhadap target audiens, pengembangan konsep yang
@@ -96,7 +96,7 @@ function Product() {
                   </h1>
                   <div className="ml-3">
                     <h5 className="card-title">Documentation</h5>
-                    <p className="card-text" style={{textAlign: "justify"}}>
+                    <p className="card-text" >
                     Dengan lensa yang tajam, kami menangkap setiap detail
                       penting, emosi, dan atmosfer dalam setiap moment. Hasilnya
                       adalah dokumentasi berkualitas tinggi yang tidak hanya

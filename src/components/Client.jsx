@@ -25,7 +25,7 @@ const Client = () => {
                 freeMode={true}
                 navigation={true}
                 autoplay={{
-                    delay: 0,
+                    delay: 1000,
                     disableOnInteraction: false,
                     pauseOnMouseEnter: true,
                 }}
