@@ -39,6 +39,10 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+#hero{
+  margin: 80px 0 0 0;
+}
+
 #hero .wrapper{
   width:55%;
 }
@@ -148,6 +152,10 @@
 .swiper-button-prev:after{
   font-size: 20px !important;
   font-weight: 800;
+}
+
+#product{
+  padding: 80px 0 0 0;
 }
 
 #product .img-icon{

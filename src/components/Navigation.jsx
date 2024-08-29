@@ -5,13 +5,13 @@ import logo from '../assets/img/logo-utama.png';
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary p-3">
+    <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-body-tertiary p-3">
       <Container>
-        <Navbar.Brand href="#home"><img src={logo} alt="" style={{width:"90px"}} /></Navbar.Brand>
+        <Navbar.Brand href="#"><img src={logo} alt="" style={{width:"90px"}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto gap-4">
-            <Nav.Link className="fs-5 fw-normal" href="#home">Home</Nav.Link>
+            <Nav.Link className="fs-5 fw-normal" href="#top">Home</Nav.Link>
             <Nav.Link className="fs-5 fw-normal" href="#product">Product</Nav.Link>
             <Nav.Link className="fs-5 fw-normal" href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link className="fs-5 fw-normal" href="#about">About</Nav.Link>
