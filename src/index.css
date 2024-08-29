@@ -168,6 +168,14 @@
   height: auto;
 }
 
+
+#about .display-5.fw-normal.mb-2 span{
+  text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+#about .display-3.fw-bold{
+  text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
 @media screen and (max-width: 1200px) {
   .sideWrap{
     right: -470px;
