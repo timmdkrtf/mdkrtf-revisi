@@ -61,8 +61,13 @@ const Client = () => {
                 spaceBetween={42}
                 breakpoints={{
                     280: {
-                        slidesPerView: 2.1,
-                        spaceBetween: 0,
+                        slidesPerView: 2,
+                        centeredSlides: true,
+
+                    },
+                    380: {
+                        slidesPerView: 2,
+                        spaceBetween: 10, // Sesuaikan jarak antara slide jika diperlukan
                     },
                     576: {
                       slidesPerView: 3,

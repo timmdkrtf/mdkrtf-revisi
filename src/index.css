@@ -352,6 +352,7 @@
 
   .partners{
     width: 85%;
+    margin: auto;
   }
   
   .swiper-slide img{
@@ -359,11 +360,15 @@
     height: 120px;
     object-fit: contain;
   }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center; /* Pusatkan konten dalam slide */
+  }
 
   .product .card-body.p-4{
     height: auto;
   }
-
   
 .slider-for h4{
   font-size: 18px;
@@ -438,8 +443,8 @@
   }
 
   .swiper-slide img{
-    width: 90px;
-    height: 80px;
+    width: 100px;
+    height: 90px;
     object-fit: contain;
   }
 
