@@ -40,7 +40,7 @@
 }
 
 #hero{
-  margin: 80px 0 0 0;
+  margin: 75px 0 0 0;
 }
 
 #hero .wrapper{
@@ -221,6 +221,11 @@
   #about{
     margin-top: -150px;
   }
+
+  #product .card-bet{
+    width: 360px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 976px) {
   .sideWrap{
@@ -230,6 +235,10 @@
     font-size: 48px;
     width: 700px;
     height: 400px;
+  }
+
+  #hero{
+    margin: 70px 0 0 0;
   }
 
   .partners{
@@ -390,6 +399,10 @@
   .product .card-body.p-4{
     height: auto;
   }
+
+  #product{
+    padding: 80px 0 170px 0;
+  }
   
 .slider-for h4{
   font-size: 18px;
@@ -413,6 +426,8 @@
 .about .fs-5.fw-light.py-4{
   font-size: 16px !important;
 }
+
+
 
 #product .card-body.p-4{
   padding: 10px !important;
@@ -441,7 +456,7 @@
 }
 
 #about{
-  margin-top: -150px;
+  margin-top: -40px;
 }
 }
 
