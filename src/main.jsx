@@ -9,12 +9,17 @@ import {
 import './index.css'
 import React from 'react';
 import Landing from './pages/Landing.jsx';
+import Documentation from './pages/Documentation.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Landing />
+  },
+  {
+    path: '/documentation',
+    element: <Documentation />
   }
 ]);
 

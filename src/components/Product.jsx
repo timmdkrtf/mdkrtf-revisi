@@ -171,7 +171,7 @@ function Product() {
                 <div className="position-absolute w-100" style={{margin: "0 0 0 -20px", padding:"0 20px", bottom:"15px"}}>
                   <div className="bottom d-flex justify-content-between align-items-center">
                     <p className="mb-0 font-weight-bold">100%</p>
-                    <a href="#" className="text-decoration-none small-text-center px-auto">Find Out More</a>
+                    <a href="/documentation" className="text-decoration-none small-text-center px-auto">Find Out More</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       style={{width:"30px"}}

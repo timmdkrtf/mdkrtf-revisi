@@ -5,6 +5,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import logo1 from "../assets/img/mdkrtf-putih.png";
 import { MdEmail } from "react-icons/md";
+import { MdLocalPhone } from "react-icons/md";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 
 const Footer = () => {
@@ -19,7 +20,7 @@ const Footer = () => {
                 Jl. Aria Surialaga No.83, Kota Bogor
               </div>
               <div className="d-flex align-items-center mb-2">
-                <IoLogoWhatsapp className="me-2" />
+                <MdLocalPhone className="me-2" />
                 <a href="" className="text-white text-decoration-none">+62 251 8632 170</a>
               </div>
               <div className="d-flex align-items-center">

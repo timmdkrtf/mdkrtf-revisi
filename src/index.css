@@ -39,6 +39,10 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+.navbar{
+  box-shadow: 0 4px 4px #c4c4c4;
+}
+
 #hero{
   margin: 75px 0 0 0;
 }
@@ -176,9 +180,8 @@
   height: auto;
 }
 
-
 #portfolio .py-5{
-  padding-top: 5rem !important;
+  padding-top: 6rem !important;
 }
 
 #about .display-5.fw-normal.mb-2 span{
