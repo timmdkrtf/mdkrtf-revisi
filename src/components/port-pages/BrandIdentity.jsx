@@ -193,7 +193,7 @@ function BrandIdentity() {
 
   return (
     <section
-      id="portfolio"
+      id="brandidentity"
       className="bg-light text-dark min-vh-100 d-flex flex-column align-items-center justify-content-center p-3"
     >
       <div className="container">

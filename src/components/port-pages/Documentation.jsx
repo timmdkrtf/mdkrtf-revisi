@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { Modal, Button } from "react-bootstrap";
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+
 import { CiGlobe } from "react-icons/ci";
 import p1 from "../../assets/img/p1.jpg";
 import p2 from "../../assets/img/p2.jpg";
@@ -192,12 +194,19 @@ function Documentation() {
   };
 
   return (
+    <>
+
     <section
-      id="portfolio"
+      id="documentation"
       className="bg-light text-dark min-vh-100 d-flex flex-column align-items-center justify-content-center p-3"
     >
+
       <div className="container">
       <div className="row w-100 py-5">
+      <Breadcrumb>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+        <Breadcrumb.Item active>Documentation</Breadcrumb.Item>
+      </Breadcrumb>
         <div className="col-12 col-md-5 col-sm-12">
           <h2 className="fw-bold">Add <span style={{color:"#5E17EB"}}>documentation</span> to your brand</h2>
         </div>
@@ -264,6 +273,7 @@ function Documentation() {
       </Modal>
       </div>
     </section>
+    </>
   );
 }
 

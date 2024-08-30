@@ -73,6 +73,10 @@ function Product() {
           color: #FFFFFF;
         }
 
+        .hover-scale:hover .card-body.p-4 a {
+          color: white !important;
+        }
+
         .btn-link{
           cursor: pointer;
           border: none;
@@ -126,24 +130,26 @@ function Product() {
                   </div>
                 </div>
                 <div className="position-absolute w-100" style={{margin: "0 0 0 -20px", padding:"0 20px 0 20px", bottom:"15px"}}>
-                  <div className="bottom d-flex justify-content-between align-items-center">
-                    <p className="mb-0 font-weight-bold">100%</p>
-                    <a href="#" className="text-decoration-none small-text-center px-auto">Find Out More</a>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{width:"30px"}}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      />
-                    </svg>
-                  </div>
+                  <a href="#" style={{color:"black", textDecoration:"none"}}>
+                      <div className="bottom d-flex justify-content-between align-items-center">
+                        <p className="mb-0 font-weight-bold">100%</p>
+                        <a href="#" className="text-decoration-none small-text-center px-auto">Find Out More</a>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          style={{width:"30px"}}
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                          />
+                        </svg>
+                      </div>
+                    </a>
                 </div>
               </div>
             </div>
@@ -169,24 +175,26 @@ function Product() {
                   </div>
                 </div>
                 <div className="position-absolute w-100" style={{margin: "0 0 0 -20px", padding:"0 20px", bottom:"15px"}}>
-                  <div className="bottom d-flex justify-content-between align-items-center">
-                    <p className="mb-0 font-weight-bold">100%</p>
-                    <a href="/documentation" className="text-decoration-none small-text-center px-auto">Find Out More</a>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{width:"30px"}}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      />
-                    </svg>
-                  </div>
+                  <a href="/documentation" style={{color:"black", textDecoration:"none"}}>
+                    <div className="bottom d-flex justify-content-between align-items-center">
+                      <p className="mb-0 font-weight-bold">100%</p>
+                      <a href="/documentation" className="text-decoration-none small-text-center px-auto">Find Out More</a>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        style={{width:"30px"}}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
+                      </svg>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

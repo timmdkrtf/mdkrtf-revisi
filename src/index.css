@@ -184,6 +184,14 @@
   padding-top: 6rem !important;
 }
 
+#documentation .py-5{
+  padding-top: 6rem !important;
+}
+
+#brandidentity .py-5{
+  padding-top: 6rem !important;
+}
+
 #about .display-5.fw-normal.mb-2 span{
   background-color: #F8F9FA;
   padding: 0 15px;
@@ -461,6 +469,14 @@
 #about{
   margin-top: -40px;
 }
+
+#documentation .py-5{
+  padding-top: 5rem !important;
+}
+
+#brandidentity .py-5{
+  padding-top: 5rem !important;
+}
 }
 
 @media screen and (max-width: 380px) {
@@ -525,6 +541,14 @@
 
 #product .position-absolute{
   margin: 0 0 0 -10px !important;
+}
+
+#documentation .py-5{
+  padding-top: 1rem !important;
+}
+
+#brandidentity .py-5{
+  padding-top: 1rem !important;
 }
 
 }
