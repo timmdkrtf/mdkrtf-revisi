@@ -586,10 +586,6 @@
     margin-top: 5px;
   }
 
-  .realtour{
-    margin-top: 20px;
-  }
-
   .rounded-circle{
     display: none;
   }
@@ -602,7 +598,7 @@
 
     
 .realtour img{
-  margin-top: -5px;
+  margin-top: 7px !important;
 }
 
 #product .img-icon{
