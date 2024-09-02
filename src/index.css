@@ -82,6 +82,27 @@
   margin-top: -5px;
 }
 
+.AYP img{
+  width: 200px;
+  height: 190px;
+  object-fit: contain;
+  margin-top: -15px;
+}
+
+.TMF img{
+  width: 200px;
+  height: 190px;
+  object-fit: contain;
+  margin-top: -15px;
+}
+
+.TMC img{
+  width: 200px;
+  height: 190px;
+  object-fit: contain;
+  margin-top: -15px;
+}
+
 .kronika img, .habatour img{
   width: 190px;
   height: 180px;
@@ -438,16 +459,16 @@
   font-size: 16px !important;
 }
 
-
-
 #product .card-body.p-4{
   padding: 10px !important;
 }
+
 #product .card-body.p-4 p{
   font-size: 13px !important;
   line-height: 15px;
   opacity: 0.8;
 }
+
 #product .card-body.p-4 .small-text-center{
   font-size: 12px !important;
 }
