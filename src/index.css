@@ -455,6 +455,27 @@
   margin: 20px 0 0 0;
 }
 
+.AYP img{
+  width: 150px;
+  height: 130px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.TMF img{
+  width: 150px;
+  height: 130px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.TMC img{
+  width: 150px;
+  height: 130px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
 .about .fs-5.fw-light.py-4{
   font-size: 16px !important;
 }
@@ -515,21 +536,21 @@
   }
 
   .AYP img{
-    width: 240px;
+    width: 250px;
     height: 190px;
     object-fit: contain;
     margin-top: 5px;
   }
   
   .TMF img{
-    width: 240px;
+    width: 250px;
     height: 190px;
     object-fit: contain;
     margin-top: 5px;
   }
   
   .TMC img{
-    width: 240px;
+    width: 250px;
     height: 190px;
     object-fit: contain;
     margin-top: 5px;
