@@ -514,6 +514,27 @@
     margin: 10px 0 0 0;
   }
 
+  .AYP img{
+    width: 240px;
+    height: 190px;
+    object-fit: contain;
+    margin-top: 5px;
+  }
+  
+  .TMF img{
+    width: 240px;
+    height: 190px;
+    object-fit: contain;
+    margin-top: 5px;
+  }
+  
+  .TMC img{
+    width: 240px;
+    height: 190px;
+    object-fit: contain;
+    margin-top: 5px;
+  }
+
   .rounded-circle{
     display: none;
   }
