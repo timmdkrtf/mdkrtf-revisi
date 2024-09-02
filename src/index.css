@@ -241,6 +241,10 @@
     object-fit: contain;
   }
 
+  .bahana{
+    margin-top: 8px;
+  }
+
   .slider-for {
     width: 85%;
     margin: 0 auto;
@@ -288,33 +292,55 @@
   width: 155px;
   height: 140px;
   object-fit: contain;
-  margin-top: -10px;
+  margin-top: 5px;
 }
 
 .nyamanin img{
   width: 155px;
   height: 140px;
   object-fit: contain;
-  margin-top: -1px;
+  margin-top: 10px;
 }
 
 .kronika img, .habatour img{
   width: 150;
   height: 135px;
   object-fit: contain;
+  margin-top: 13px;
 }
 
 .bahana img{
   width: 180px;
   height: 170px;
   object-fit: contain;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .apostrof img, .halakah img{
   width: 160px;
   height: 145px;
   object-fit: contain;
+}
+
+.AYP img{
+  width: 220px;
+  height: 180px;
+  object-fit: contain;
+  margin-top: -5px;
+}
+
+.TMF img{
+  width: 220px;
+  height: 180px;
+  object-fit: contain;
+  margin-top: -5px;
+}
+
+.TMC img{
+  width: 220px;
+  height: 180px;
+  object-fit: contain;
+  margin-top: -5px;
 }
 
   .slider-for {
@@ -374,6 +400,10 @@
   
   .slider-for .d-flex.gap-4{
     margin: 20px 0 0 0;
+  }
+
+  .bahana{
+    margin-top: 23px;
   }
 
   #product .card-bet{
@@ -554,6 +584,10 @@
     height: 190px;
     object-fit: contain;
     margin-top: 5px;
+  }
+
+  .realtour{
+    margin-top: 20px;
   }
 
   .rounded-circle{
