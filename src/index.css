@@ -205,6 +205,23 @@
   padding-top: 6rem !important;
 }
 
+#portfolio .py-5 .btn.btn-dark{
+  box-shadow: 4px 4px 0 0 #5E17EB;
+}
+
+#portfolio .py-5 .btn.btn-dark:hover{
+  box-shadow: 0 4px 0 0 #5E17EB;
+}
+
+#documentation .py-5 .btn.btn-dark{
+  box-shadow: 4px 4px 0 0 #5E17EB;
+}
+
+#documentation .py-5 .btn.btn-dark:hover{
+  box-shadow: 0 4px 0 0 #5E17EB !important;
+}
+
+
 #documentation .py-5{
   padding-top: 6rem !important;
 }
@@ -234,6 +251,13 @@
 .packet-documentation .packet .card{
   width: 25%;
   padding: 15px;
+  transition: 0.5s;
+  margin-top: 5px;
+}
+
+.packet-documentation .packet .card:hover{
+  margin-top: -5px;
+  box-shadow: 0 2px 4px #5E17EB;
 }
 
 .packet-documentation .packet .card h4{
@@ -287,6 +311,12 @@
   box-shadow: 0 3px 0 #5E17EB;
   width: 100%;
   font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+
+.packet-documentation .packet button:hover{
+  background-color: #5E17EB;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1200px) {
