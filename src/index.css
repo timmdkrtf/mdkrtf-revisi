@@ -330,6 +330,11 @@
     width: 360px;
     height: auto;
   }
+  
+  .packet-documentation .packet .card{
+    width: 30%;
+    padding: 15px;
+  }
 }
 @media screen and (max-width: 976px) {
   .sideWrap{
@@ -428,6 +433,11 @@
   #about{
     margin-top: -100px;
   }
+  
+  .packet-documentation .packet .card{
+    width: 35%;
+    padding: 15px;
+  }
 }
 @media screen and (max-width: 768px) {
   .sideWrap{
@@ -496,6 +506,11 @@
 
   #about{
     margin-top: -30px;
+  }
+
+  .packet-documentation .packet .card{
+    width: 45%;
+    padding: 15px;
   }
 
 }
@@ -617,6 +632,20 @@
 #brandidentity .py-5{
   padding-top: 5rem !important;
 }
+
+.packet-documentation .packet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.packet-documentation .packet .card{
+  width: 70%;
+  padding: 15px;
+}
 }
 
 @media screen and (max-width: 380px) {
@@ -710,5 +739,19 @@
 
 #brandidentity .py-5{
   padding-top: 1rem !important;
+}
+
+.packet-documentation .packet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.packet-documentation .packet .card{
+  width: 90%;
+  padding: 15px;
 }
 }
