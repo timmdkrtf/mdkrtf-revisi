@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer id="contact" className="bg-dark text-white py-4">
       <Container>
-        <Row className="justify-content-between align-items-center">
+        <Row className="justify-content-between align-items-center" style={{fontFamily: "'League Spartan', sans-serif"}}>
           <Col md={6} className="py-4">
             <img src={logo1} className="w-25" alt="MDKRTF Logo" />
             <div className="mt-3">

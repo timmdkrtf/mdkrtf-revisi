@@ -199,15 +199,15 @@ function Portfolio() {
       <div className="container">
       <div className="row w-100 py-5">
         <div className="col-12 col-md-4 col-sm-12">
-          <h2 className="fw-bold">A Strong Brand Start Here</h2>
+          <h2 className="fw-bold" style={{fontFamily: "'League Spartan', sans-serif"}}>A Strong Brand Start Here</h2>
         </div>
-        <div className="col-12 col-md-4 col-sm-12">
+        <div className="col-12 col-md-4 col-sm-12" style={{fontFamily: "'Open Sans', sans-serif"}}>
           <p>
             Achieve clear insights into your design
             investments—streamline your workflow effortlessly
           </p>
         </div>
-        <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
+        <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center", fontFamily: "'League Spartan', sans-serif"}}>
           <a href="https://instagram.com/mdkrtf" target="_blank"><button className="btn btn-dark" style={{padding:"12px 28px", borderRadius:"15px"}}>
             Booking Now
           </button></a>

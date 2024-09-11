@@ -49,7 +49,7 @@ const Client = () => {
     }, []);
     return (
         <section className="partners max-w-2xl mx-auto py-5 my-5">
-            <h1 className="font-Leaguespartan text-3xl text-center font-bold">Our Clients</h1>
+            <h1 className="text-3xl text-center font-bold" style={{fontFamily: "'League Spartan', sans-serif"}}>Our Clients</h1>
             <Swiper
                 loop={true}
                 freeMode={true}

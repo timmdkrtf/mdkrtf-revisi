@@ -105,8 +105,8 @@ function Product() {
     <section id="product" className="bg-light min-vh-100">
       <div className="container py-5">
         <div className="text-left mb-5">
-          <h4 className="fw-bold text-dark">Elevate Your Brand Image</h4>
-          <p className="text-secondary fs-5">Our top products</p>
+          <h4 className="fw-bold text-dark" style={{fontFamily: "'League Spartan', sans-serif"}}>Elevate Your Brand Image</h4>
+          <p className="text-secondary fs-5" style={{fontFamily: "'Open Sans', sans-serif"}}>Our top products</p>
         </div>
 
         <div className="row justify-content-center">
@@ -118,22 +118,24 @@ function Product() {
                     <TbBrandCake className="img-icon" />
                   </div>
                   <div className="d-flex">
-                  <h1 className=" hover:text-custom-white fs-3 pe-3 font-bold font-Leaguespartan ">
+                  <h1 className=" hover:text-custom-white fs-3 pe-3 font-bold" style={{fontFamily: "'League Spartan', sans-serif"}}>
                     01
                   </h1>
                   <div className="ml-3">
-                    <h5 className="card-title">Brand Identity</h5>
+                    <h5 className="card-title" style={{fontFamily: "'League Spartan', sans-serif"}}>Brand Identity</h5>
+                    <div style={{fontFamily: "'Open Sans', sans-serif"}}>
                       <ReadMore
                         text={`Perjalanan menuju kesuksesan brand dimulai dengan fondasi yang kuat. mdkrtf akan menjadi partner Anda dalam membangun identitas merek yang kokoh. Mulai dari riset mendalam terhadap target audiens, pengembangan konsep yang relevan, hingga visualisasi yang memukau, kami akan memastikan brand Anda memiliki jiwa dan karakter yang khas.`}
                       />
+                    </div>
                   </div>
                   </div>
                 </div>
                 <div className="position-absolute w-100" style={{margin: "0 0 0 -20px", padding:"0 20px 0 20px", bottom:"15px"}}>
                   <a href="#" style={{color:"black", textDecoration:"none"}}>
                       <div className="bottom d-flex justify-content-between align-items-center">
-                        <p className="mb-0 font-weight-bold">100%</p>
-                        <a href="#" className="text-decoration-none small-text-center px-auto">Find Out More</a>
+                        <p className="mb-0 font-weight-bold" style={{fontFamily: "'League Spartan', sans-serif"}}>100%</p>
+                        <a href="#" className="text-decoration-none small-text-center px-auto" style={{fontFamily: "'League Spartan', sans-serif"}}>Find Out More</a>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           style={{width:"30px"}}
@@ -163,22 +165,24 @@ function Product() {
                     <FaCamera className="img-icon" />
                   </div>
                   <div className="d-flex">
-                  <h1 className=" hover:text-custom-white fs-3 pe-3 font-bold font-Leaguespartan ">
+                  <h1 className=" hover:text-custom-white fs-3 pe-3 font-bold" style={{fontFamily: "'League Spartan', sans-serif"}}>
                     02
                   </h1>
                   <div className="ml-3">
-                    <h5 className="card-title">Documentation</h5>
-                    <ReadMore
-                        text={`Dengan lensa yang tajam, kami menangkap setiap detail penting, emosi, dan atmosfer dalam setiap moment. Hasilnya adalah dokumentasi berkualitas tinggi yang tidak hanya indah secara visual, tetapi juga memiliki nilai historis dan emosional yang abadi.`}
-                    />
+                    <h5 className="card-title" style={{fontFamily: "'League Spartan', sans-serif"}}>Documentation</h5>
+                    <div style={{fontFamily: "'Open Sans', sans-serif"}}>
+                      <ReadMore
+                          text={`Dengan lensa yang tajam, kami menangkap setiap detail penting, emosi, dan atmosfer dalam setiap moment. Hasilnya adalah dokumentasi berkualitas tinggi yang tidak hanya indah secara visual, tetapi juga memiliki nilai historis dan emosional yang abadi.`}
+                      />
+                    </div>
                   </div>
                   </div>
                 </div>
                 <div className="position-absolute w-100" style={{margin: "0 0 0 -20px", padding:"0 20px", bottom:"15px"}}>
                   <a href="/documentation" style={{color:"black", textDecoration:"none"}}>
                     <div className="bottom d-flex justify-content-between align-items-center">
-                      <p className="mb-0 font-weight-bold">100%</p>
-                      <a href="/documentation" className="text-decoration-none small-text-center px-auto">Find Out More</a>
+                      <p className="mb-0 font-weight-bold" style={{fontFamily: "'League Spartan', sans-serif"}}>100%</p>
+                      <a href="/documentation" className="text-decoration-none small-text-center px-auto" style={{fontFamily: "'League Spartan', sans-serif"}}>Find Out More</a>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         style={{width:"30px"}}

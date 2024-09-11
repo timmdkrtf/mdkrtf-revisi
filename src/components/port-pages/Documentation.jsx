@@ -208,23 +208,23 @@ function Documentation() {
         <Breadcrumb.Item active>Documentation</Breadcrumb.Item>
       </Breadcrumb>
         <div className="col-12 col-md-5 col-sm-12">
-          <h2 className="fw-bold">Add <span style={{color:"#5E17EB"}}>documentation</span> to your brand</h2>
+          <h2 className="fw-bold">Add <span style={{color:"#5E17EB", fontFamily: "'League Spartan', sans-serif"}}>documentation</span> to your brand</h2>
         </div>
-        <div className="col-12 col-md-4 col-sm-12">
+        <div className="col-12 col-md-4 col-sm-12" style={{fontFamily: "'Open Sans', sans-serif"}}>
           <p>
             Achieve clear insights into your design
             investments—streamline your workflow effortlessly
           </p>
         </div>
-        <div className="col-12 col-md-3 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
-          <a href="https://api.whatsapp.com/send?phone=6281211118457" target="_blank"><button className="btn btn-dark" style={{padding:"12px 28px", borderRadius:"15px", boxShadow:"4px 4px 0 0 #5E17EB"}}>
-            Booking Now
+        <div className="col-12 col-md-3 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center", fontFamily: "'League Spartan', sans-serif"}}>
+          <a href="/documentation/packet"><button className="btn btn-dark" style={{padding:"12px 28px", borderRadius:"15px", boxShadow:"4px 4px 0 0 #5E17EB"}}>
+            See Detail
           </button></a>
         </div>
-      
+        {/* https://api.whatsapp.com/send?phone=6281211118457 */}
       </div>
 
-      <Slider {...settingsFor} className="slider-for">
+      <Slider {...settingsFor} className="slider-for" style={{fontFamily: "'League Spartan', sans-serif"}}>
         {slides.map((slide, index) => (
           <div key={index} className="image-wrapper position-relative">
             <img src={slide.img} alt="slide" className="img-fluid rounded w-100" />

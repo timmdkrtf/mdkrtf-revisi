@@ -209,6 +209,10 @@
   padding-top: 6rem !important;
 }
 
+#documentation .breadcrumb{
+  font-family: "Open Sans", sans-serif;
+}
+
 #brandidentity .py-5{
   padding-top: 6rem !important;
 }
@@ -219,6 +223,70 @@
 }
 #about .display-3.fw-bold{
   text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+.packet-documentation .packet{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.packet-documentation .packet .card{
+  width: 25%;
+  padding: 15px;
+}
+
+.packet-documentation .packet .card h4{
+  border: 1px solid;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.packet-documentation .packet .card .harga{
+  color: #5E17EB;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.packet-documentation .packet .card p{
+  margin: 0 0 -7px 0;
+  font-size: 18px;
+  text-decoration: line-through;
+  font-weight: bold;
+  text-decoration-color: rgb(205, 3, 3);
+  text-decoration-thickness: 3px;
+}
+
+.packet-documentation .packet .card b{
+  font-size: 20px;
+}
+
+.packet-documentation .packet .card b span{
+  font-size: 11px;
+}
+
+.packet-documentation .packet .card ul{
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.packet-documentation .packet .card ul li{
+  font-weight: bold;
+}
+
+.packet-documentation .packet button{
+  margin-top: 15px;
+  border-radius: 20px;
+  padding: 6px 10px;
+  border: 1px solid #5E17EB;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 3px 0 #5E17EB;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
@@ -643,5 +711,4 @@
 #brandidentity .py-5{
   padding-top: 1rem !important;
 }
-
 }

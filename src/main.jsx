@@ -10,6 +10,7 @@ import './index.css'
 import React from 'react';
 import Landing from './pages/Landing.jsx';
 import Documentation from './pages/Documentation.jsx';
+import PacketDocumentation from './pages/PacketDocumentation.jsx';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/documentation',
     element: <Documentation />
+  },
+  {
+    path: '/documentation/packet',
+    element: <PacketDocumentation />
   }
 ]);
 
