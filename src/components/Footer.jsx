@@ -48,7 +48,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col className="text-center">
-            <p className="mb-0">© 2024 mdkrtf - All rights reserved.</p>
+            <p className="mb-0">© 2024 PT Abdi Media Kreatif &middot; All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
