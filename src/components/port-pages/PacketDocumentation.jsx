@@ -17,6 +17,11 @@ import p10 from "../../assets/img/p10.jpg";
 import p11 from "../../assets/img/p11.jpg";
 import p12 from "../../assets/img/p12.jpg";
 
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../../assets/img/logo-utama.png';
+
 import CircleElemen from "../../assets/img/circle-elemen.png"
 
 import "slick-carousel/slick/slick.css";
@@ -184,6 +189,17 @@ function PacketDocumentation() {
 
   return (
     <>
+
+    <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-body-tertiary p-3">
+      <Container>
+        <Navbar.Brand href="#"><img src={logo} alt="" style={{width:"90px"}} /></Navbar.Brand>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto gap-4">
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+
       <div className="packet-documentation">
           <div className="circle-elemen">
             <img src={CircleElemen} alt="" />

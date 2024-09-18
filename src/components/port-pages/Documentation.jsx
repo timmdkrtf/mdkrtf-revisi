@@ -3,6 +3,11 @@ import Slider from "react-slick";
 import { Modal, Button } from "react-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../../assets/img/logo-utama.png';
+
 import { CiGlobe } from "react-icons/ci";
 import p1 from "../../assets/img/p1.jpg";
 import p2 from "../../assets/img/p2.jpg";
@@ -195,6 +200,16 @@ function Documentation() {
 
   return (
     <>
+
+    <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-body-tertiary p-3">
+      <Container>
+        <Navbar.Brand href="#"><img src={logo} alt="" style={{width:"90px"}} /></Navbar.Brand>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto gap-4">
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
     <section
       id="documentation"
