@@ -242,6 +242,46 @@
   text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
 }
 
+.packet-documentation .circle-elemen img{
+  width: 160px;
+  height: auto;
+  position: absolute;
+  right: 30px;
+  margin: 120px 0 0 0;
+}
+
+.packet-documentation .portfolio{
+  padding: 20px 0;
+}
+
+.packet-documentation .title{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.packet-documentation .title h3{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+}
+
+.packet-documentation .title h3 span{
+  display: inline-block;
+  width: fit-content;
+  position: relative;
+}
+
+.packet-documentation .title h3 span:before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #5E17EB;
+  position: absolute;
+  bottom: 3px;
+}
+
 .packet-documentation .packet{
   display: flex;
   justify-content: center;
@@ -463,6 +503,14 @@
   #about{
     margin-top: -100px;
   }
+
+  .packet-documentation .circle-elemen img{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    margin: 120px 0 0 0;
+  }
   
   .packet-documentation .packet .card{
     width: 35%;
@@ -536,6 +584,14 @@
 
   #about{
     margin-top: -30px;
+  }
+
+  .packet-documentation .circle-elemen img{
+    width: 130px;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    margin: 180px 0 0 0;
   }
 
   .packet-documentation .packet .card{
@@ -661,6 +717,14 @@
 
 #brandidentity .py-5{
   padding-top: 5rem !important;
+}
+
+.packet-documentation .circle-elemen img{
+  width: 120px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  margin: 200px 0 0 0;
 }
 
 .packet-documentation .packet{
