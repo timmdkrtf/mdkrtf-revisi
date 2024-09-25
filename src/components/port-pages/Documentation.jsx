@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
-import { Modal, Button } from "react-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 import Container from 'react-bootstrap/Container';
@@ -26,8 +25,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Documentation() {
-  const [openModal, setOpenModal] = useState(false);
-  const [modalData, setModalData] = useState({ title: "", description: "" });
   const sliderForRef = useRef(null);
   const sliderNavRef = useRef(null);
 
@@ -193,11 +190,6 @@ function Documentation() {
     ],
   };
 
-  const handleOpenModal = (slide) => {
-    setModalData(slide);
-    setOpenModal(true);
-  };
-
   return (
     <>
 
@@ -247,17 +239,18 @@ function Documentation() {
             <div className="text-white position-absolute">
               <h4 style={{margin:"-40px 0 0 0"}}>{slide.mainTitle}</h4>
               <div className="d-flex gap-4">
-                <a href="https://instagram.com/mdkrtf" target="_blank" rel="noopener noreferrer">
+                <a href="https://api.whatsapp.com/send?phone=6281211118457" target="_blank" rel="noopener noreferrer">
                   <button className="btn btn-light fw-bold">
                     Contact Us
                   </button>
                 </a>
-                <button
-                  onClick={() => handleOpenModal(slide)}
-                  className="fw-bold button-blur"
-                >
-                  See More
-                </button>
+                <a href="https://instagram.com/mdkrtf" target="_blank">
+                  <button
+                    className="fw-bold button-blur"
+                  >
+                    See More
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -271,21 +264,6 @@ function Documentation() {
           </div>
         ))}
       </Slider>
-
-      {/* Modal Bootstrap */}
-      <Modal show={openModal} onHide={() => setOpenModal(false)} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>{modalData.title}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p>{modalData.description}</p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setOpenModal(false)}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
       </div>
     </section>
     </>

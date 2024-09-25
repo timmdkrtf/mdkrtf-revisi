@@ -182,11 +182,6 @@ function PacketDocumentation() {
     ],
   };
 
-  const handleOpenModal = (slide) => {
-    setModalData(slide);
-    setOpenModal(true);
-  };
-
   return (
     <>
 
@@ -284,7 +279,7 @@ function PacketDocumentation() {
                     <h4 style={{ margin: "-40px 0 0 0" }}>{slide.mainTitle}</h4>
                     <div className="d-flex gap-4">
                         <a
-                        href="https://instagram.com/mdkrtf"
+                        href="https://api.whatsapp.com/send?phone=6281211118457"
                         target="_blank"
                         rel="noopener noreferrer"
                         >
@@ -292,12 +287,13 @@ function PacketDocumentation() {
                             Contact Us
                         </button>
                         </a>
-                        <button
-                        onClick={() => handleOpenModal(slide)}
-                        className="fw-bold button-blur"
-                        >
-                        See More
-                        </button>
+                        <a href="https://instagram.com/mdkrtf" target="_blank">
+                          <button
+                          className="fw-bold button-blur"
+                          >
+                          See More
+                          </button>
+                        </a>
                     </div>
                     </div>
                 </div>
@@ -315,20 +311,6 @@ function PacketDocumentation() {
                 </div>
                 ))}
             </Slider>
-
-            <Modal show={openModal} onHide={() => setOpenModal(false)} centered>
-                <Modal.Header closeButton>
-                <Modal.Title>{modalData.title}</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                <p>{modalData.description}</p>
-                </Modal.Body>
-                <Modal.Footer>
-                <Button variant="secondary" onClick={() => setOpenModal(false)}>
-                    Close
-                </Button>
-                </Modal.Footer>
-            </Modal>
             </div>
         </div>
       </div>
