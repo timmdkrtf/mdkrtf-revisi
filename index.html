@@ -17,16 +17,25 @@
 
       gtag('config', 'G-2BXBXXM0H5');
     </script> -->
-
-<script>
-  if (window.location.pathname === "/documentation/packet") {
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id=G-2BXBXXM0H5';f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','G-2BXBXXM0H5');
-  }
-</script>
+    <script>
+      // Memeriksa apakah URL saat ini adalah halaman yang diinginkan
+      if (window.location.pathname === "/documentation/packet") {
+        // Memuat script Google Analytics
+        var gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-2BXBXXM0H5";
+        document.head.appendChild(gtagScript);
+    
+        // Inisialisasi dataLayer dan fungsi gtag
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        // Konfigurasi Google Analytics
+        gtag('config', 'G-2BXBXXM0H5');
+      }
+    </script>
+    
   </head>
   <body id="body">
     <div id="root"></div>
