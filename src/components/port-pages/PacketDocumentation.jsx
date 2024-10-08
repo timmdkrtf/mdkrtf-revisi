@@ -1,7 +1,6 @@
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 
 import React, { useState, useRef, useEffect } from "react";
-import { Helmet } from "react-helmet";
 import Slider from "react-slick";
 import { Modal, Button } from "react-bootstrap";
 import { CiGlobe } from "react-icons/ci";
@@ -185,19 +184,6 @@ function PacketDocumentation() {
 
   return (
     <>
-
-      <Helmet>
-        <script>
-          {`
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','G-2BXBXXM0H5');
-          `}
-        </script>
-      </Helmet>
-
     <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-body-tertiary p-3">
       <Container>
         <Navbar.Brand href="#"><img src={logo} alt="" style={{width:"90px"}} /></Navbar.Brand>
