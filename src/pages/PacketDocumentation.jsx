@@ -1,24 +1,33 @@
 import Footer from "../components/Footer";
 import ScrollTop from "../components/ScrollTop";
-import PacketDocumentation from "../components/port-pages/PacketDocumentation";
-import { Helmet } from "react-helmet";
+import PacketDoc from "../components/port-pages/PacketDocumentation";
 
-export default function Landing(){
+import React, { useEffect } from "react";
+
+export default function PacketDocumentation(){
+
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtm.js?id=G-2BXBXXM0H5`;
+        document.head.appendChild(script);
+    
+        const noscript = document.createElement("noscript");
+        noscript.innerHTML = `
+          <iframe src="https://www.googletagmanager.com/ns.html?id=G-2BXBXXM0H5"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
+        document.body.appendChild(noscript);
+    
+        return () => {
+          document.head.removeChild(script);
+          document.body.removeChild(noscript);
+        };
+      }, []);
+
     return (
         <div style={{backgroundColor:"#F8F9FA"}}>
-            <Helmet>
-                <script>
-                {`
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','G-2BXBXXM0H5');
-                `}
-                </script>
-            </Helmet>
             <ScrollTop />
-            <PacketDocumentation />
+            <PacketDoc />
             <Footer id={Footer} />
         </div>
     );
