@@ -12,7 +12,7 @@ import p8 from "../assets/img/p8.jpg";
 import p9 from "../assets/img/p9.jpg";
 import p10 from "../assets/img/p10.jpg";
 import p11 from "../assets/img/p11.jpg";
-import p12 from "../assets/img/p12.jpg";
+import p12 from "../assets/img/p12.webp";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
