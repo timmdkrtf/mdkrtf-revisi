@@ -181,6 +181,12 @@
   font-weight: 800;
 }
 
+.slick-dots li{
+  margin: 0 3px !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
 .image-wrapper{
   position: relative;
 }
@@ -192,6 +198,7 @@
   height: 50%;
   bottom: 0;
   left: 0;
+  border-radius: 0 0 7px 7px;
   background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 
