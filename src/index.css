@@ -671,6 +671,10 @@
   margin: 20px 0 0 0;
 }
 
+.slider-nav{
+  margin: 0 auto !important;
+}
+
 .image-wrapper::after{
   height: 70%;
 }
