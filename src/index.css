@@ -144,6 +144,8 @@
 
 .slider-for .text-white.position-absolute{
   margin: -110px 0 0 30px;
+  position: relative;
+  z-index: 5;
 }
 
 .slider-for .d-flex.gap-4{
@@ -177,6 +179,20 @@
 .swiper-button-prev:after{
   font-size: 20px !important;
   font-weight: 800;
+}
+
+.image-wrapper{
+  position: relative;
+}
+
+.image-wrapper::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 
 #product{
