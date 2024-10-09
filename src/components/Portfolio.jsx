@@ -154,6 +154,7 @@ function Portfolio() {
         breakpoint: 576, // Pada layar dengan lebar 768px atau kurang
         settings: {
           arrows: false,
+          dots: false,
         },
       }
     ],
@@ -213,7 +214,7 @@ function Portfolio() {
             <img src={slide.img} alt="slide" className="img-fluid rounded w-100" />
             <CiGlobe className="position-absolute top-0 start-0 m-4 bg-white p-2 rounded-circle" size={48} />
             <div className="text-white position-absolute">
-              <h4 style={{margin:"-40px 0 0 0"}}>{slide.mainTitle}</h4>
+              <h4 style={{margin:"-40px 0 0 0", fontFamily: "'League Spartan', sans-serif"}}>{slide.mainTitle}</h4>
               <div className="d-flex gap-4">
                 <a href="https://api.whatsapp.com/send?phone=6281211118457" target="_blank" rel="noopener noreferrer">
                   <button className="btn btn-light fw-bold">

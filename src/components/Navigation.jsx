@@ -10,12 +10,12 @@ function Navigation() {
         <Navbar.Brand href="#"><img src={logo} alt="" style={{width:"90px"}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto gap-4">
-            <Nav.Link className="fs-5 fw-normal" href="#top">Home</Nav.Link>
-            <Nav.Link className="fs-5 fw-normal" href="#product">Product</Nav.Link>
-            <Nav.Link className="fs-5 fw-normal" href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link className="fs-5 fw-normal" href="#about">About</Nav.Link>
-            <Nav.Link className="fs-5 fw-normal" href="#contact">Contact</Nav.Link>
+          <Nav className="ms-auto gap-4" style={{fontFamily: "'Open Sans', sans-serif"}}>
+            <Nav.Link className="fw-normal" href="#top">Home</Nav.Link>
+            <Nav.Link className="fw-normal" href="#product">Product</Nav.Link>
+            <Nav.Link className="fw-normal" href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link className="fw-normal" href="#about">About</Nav.Link>
+            <Nav.Link className="fw-normal" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
