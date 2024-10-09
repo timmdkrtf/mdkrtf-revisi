@@ -671,6 +671,10 @@
   margin: 20px 0 0 0;
 }
 
+.image-wrapper::after{
+  height: 70%;
+}
+
 .AYP img{
   width: 150px;
   height: 130px;
