@@ -1,8 +1,7 @@
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
-import { Modal, Button } from "react-bootstrap";
 import { CiGlobe } from "react-icons/ci";
 import p1 from "../../assets/img/p1.webp";
 import p2 from "../../assets/img/p2.webp";
@@ -16,6 +15,9 @@ import p9 from "../../assets/img/p9.webp";
 import p10 from "../../assets/img/p10.webp";
 import p11 from "../../assets/img/p11.webp";
 import p12 from "../../assets/img/p12.webp";
+import p13 from "../../assets/img/p13.webp";
+import p14 from "../../assets/img/p14.webp";
+import p15 from "../../assets/img/p15.webp";
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -28,8 +30,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function PacketDocumentation() {
-  const [openModal, setOpenModal] = useState(false);
-  const [modalData, setModalData] = useState({ title: "", description: "" });
   const sliderForRef = useRef(null);
   const sliderNavRef = useRef(null);
 
@@ -45,98 +45,62 @@ function PacketDocumentation() {
     {
       mainTitle: "Thamrin Meyer Foundation Berbagi",
       img: p12,
-      childrenImg: [p7, p7, p7, p7],
-      title: "01 | Thamrin Meyer Foundation Berbagi",
-      description:
-        "Jejak kebaikan Thamrin Meyer Foundation dalam lensa mdkrtf.",
     },
     {
       mainTitle: "Thamrin Meyer Foundation Berbagi",
       img: p11,
-      childrenImg: [p7, p7, p7, p7],
-      title: "01 | Thamrin Meyer Foundation Berbagi",
-      description:
-        "Jejak kebaikan Thamrin Meyer Foundation dalam lensa mdkrtf.",
     },
     {
       mainTitle: "Thamrin Meyer Foundation Berbagi",
       img: p1,
-      childrenImg: [p7, p7, p7, p7],
-      title: "01 | Thamrin Meyer Foundation Berbagi",
-      description:
-        "Jejak kebaikan Thamrin Meyer Foundation dalam lensa mdkrtf.",
     },
     {
       mainTitle: "Trip Yogyakarta - Malang with Realtour",
       img: p7,
-      childrenImg: [p7, p7, p7, p7],
-      title: "02 | Trip Yogyakarta - Malang with Realtour",
-      description:
-        "Lensa mdkrtf untuk trip Yogyakarta-Malang Bersama Realtour.  ",
     },
     {
       mainTitle: "Trip Yogyakarta - Malang with Realtour",
       img: p3,
-      childrenImg: [p7, p7, p7, p7],
-      title: "02 | Trip Yogyakarta - Malang with Realtour",
-      description:
-        "Lensa mdkrtf untuk trip Yogyakarta-Malang Bersama Realtour.  ",
     },
     {
       mainTitle: "Jack n John Photo Cuts",
       img: p6,
-      childrenImg: [p7, p7, p7, p7],
-      title: "03 | Jack n John Photo Cuts",
-      description:
-        "mdkrtf tidak hanya mengambil gambar, tetapi juga menangkap esensi dari sebuah ruang. ",
     },
     {
       mainTitle: "Jack n John Photo Cuts",
       img: p5,
-      childrenImg: [p7, p7, p7, p7],
-      title: "03 | Jack n John Photo Cuts",
-      description:
-        "mdkrtf tidak hanya mengambil gambar, tetapi juga menangkap esensi dari sebuah ruang. ",
     },
     {
       mainTitle: "Capturing Year-End Memories",
       img: p4,
-      childrenImg: [p7, p7, p7, p7],
-      title: "04 | Capturing Year-End Memories",
-      description: " Kenangan Bersama Sahabat dalam Lensa mdkrtf. ",
     },
     {
-      mainTitle:
-        "Nourishing Horizons: 9ood Science 9reat goals, Nutricell Event",
+      mainTitle: "Nourishing Horizons: 9ood Science 9reat goals, Nutricell Event",
       img: p2,
-      childrenImg: [p7, p7, p7, p7],
-      title:
-        "05 | Nourishing Horizons: 9ood Science 9reat goals, Nutricell Event",
-      description: "Event Photo Coverage for Nutricell Event. ",
     },
     {
       mainTitle: "Sports Photography",
       img: p9,
-      childrenImg: [p7, p7, p7, p7],
-      title: "06 | Sports Photography",
-      description:
-        "mdkrtf mengabadikan momen terbaik dalam sport event taekwondo dengan hasil yang berkualitas tinggi.",
     },
     {
       mainTitle: "Sports Photography",
       img: p8,
-      childrenImg: [p7, p7, p7, p7],
-      title: "06 | Sports Photography",
-      description:
-        "mdkrtf mengabadikan momen terbaik dalam sport event taekwondo dengan hasil yang berkualitas tinggi.",
     },
     {
       mainTitle: "Sports Photography",
       img: p10,
-      childrenImg: [p7, p7, p7, p7],
-      title: "06 | Sports Photography",
-      description:
-        "mdkrtf mengabadikan momen terbaik dalam sport event taekwondo dengan hasil yang berkualitas tinggi.",
+    },
+    {
+      mainTitle: "Tasteful Visual Delights",
+      img: p13,
+    },
+    {
+      mainTitle: "Tasteful Visual Delights",
+      img: p14,
+    },
+    {
+      mainTitle: "Tasteful Visual Delights",
+      img: p15,
     },
   ];
 

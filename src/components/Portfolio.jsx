@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { CiGlobe } from "react-icons/ci";
 import p1 from "../assets/img/p1.webp";

@@ -10,7 +10,7 @@
 
 .nav-link:focus,
 .nav-link:hover {
-color: #004AAD;
+color: #5E17EB;
 font-weight: 600;
 }
 
@@ -28,7 +28,7 @@ left: 50%;
 position: absolute;
 width: 0%;
 height: 2px;
-background-color: #004AAD;
+background-color: #5E17EB;
 transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
 transition-duration: 400ms;
 transition-property: width, left;
@@ -418,6 +418,192 @@ transition-property: width, left;
   color: #FFFFFF;
 }
 
+.packet-website{
+  position: relative;
+}
+
+.packet-website::after{
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 8px;
+    background-color: #A4DDED;
+    box-shadow: 0 15px 0 0 #E5B80B;
+    right: 0;
+    top: 120px;
+}
+
+.packet-website .container-content{
+  padding: 80px 0;
+}
+
+.packet-website .content .title{
+  text-align: center;
+  margin: 60px 0 50px 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+.packet-website .content .title h1{
+  line-height: 40px;
+}
+
+.packet-website .content .title span{
+  border: 4px solid #A4DDED;
+  border-right: 4px solid #A4DDED;
+  border-left: 1px solid #A4DDED;
+  border-top: 1px solid #A4DDED;
+  padding: 7px 7px 0 7px;
+  border-radius: 5px;
+}
+
+.packet-website .content .card-content{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+}
+
+.packet-website .content .card-content .card{
+  width: calc(25% - 18px);
+  text-align: center;
+  padding: 30px 15px;
+  position: relative;
+  z-index: 1;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.packet-website .content .card-content .card::after{
+  position: absolute;
+  content: "";
+  background-image: url('../src/assets/img/double-down-gold.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  bottom: -45px;
+  left: 43%;
+  z-index: 0 !important;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.packet-website .content .card-content .card:hover{
+  box-shadow: 0px 0px 30px 3px #A4DDED inset;
+}
+
+.packet-website .content .card-content .card:hover img{
+  margin-top: -5px;
+}
+
+.packet-website .content .card-content .card:hover::after{
+  visibility: visible;
+  animation: loop 2s infinite;
+}
+
+@keyframes loop{
+  0% {bottom: -45px;}
+  50% {bottom: -55px}
+  100% {bottom: -45px}
+}
+
+.packet-website .content .card-content .card img{
+  width: 70px;
+  margin: 0 auto;
+  transition: 0.3s;
+  filter: drop-shadow(1px 1px 0 #4b4b4b);
+}
+
+.packet-website .content .card-content .card h5{
+  font-family: "League Spartan", sans-serif;
+  margin: 30px 0 15px 0;
+
+}
+
+.packet-website .content .card-content .card p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.packet-website .portfolio{
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+.packet-website .portfolio .portfolio-flex .content{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 0 0;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left{
+  width: 48%;
+  padding: 70px 0;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left small{
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 25px;
+  padding: 2px 5px;
+  box-shadow: 0 2px 0 0 #A4DDED;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left small::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #A4DDED;
+  top: 50%;
+  left: -25px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left h1{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  margin-top: 10px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin: 15px 0 50px 0;
+  width: 85%;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left button{
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #E5B80B;
+  font-weight: 500;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left button:hover{
+  box-shadow: 0 4px 0 0 #A4DDED;
+  border: 1px solid #E5B80B;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: 600;
+}
+
+.packet-website .portfolio .portfolio-flex .content .img-right{
+  width: 48%;
+  text-align: end;
+}
+
+.packet-website .portfolio .portfolio-flex .content .img-right img{
+  width: 90%;
+}
+
 @media screen and (max-width: 1200px) {
   .sideWrap{
     right: -470px;
@@ -464,6 +650,15 @@ transition-property: width, left;
     width: 30%;
     padding: 15px;
   }
+
+  .packet-website .content .card-content .card::after{
+    left: 41%;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content .img-right img{
+    width: 100%;
+  }
+
 }
 @media screen and (max-width: 976px) {
   .sideWrap{
@@ -575,6 +770,48 @@ transition-property: width, left;
     width: 35%;
     padding: 15px;
   }
+
+  .packet-website::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 6px;
+    background-color: #A4DDED;
+    box-shadow: 0 14px 0 0 #E5B80B;
+    right: 0;
+    top: 120px;
+}
+
+  .packet-website .content .card-content .card{
+    width: calc(40% - 18px);
+    text-align: center;
+    padding: 30px 15px;
+    position: relative;
+    z-index: 1;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .packet-website .content .card-content{
+    flex-wrap: wrap;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content{
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 10px;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content .text-left{
+    width: 100%;
+    padding: 0;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content .img-right{
+    width: 100%;
+    text-align: end;
+  }
 }
 @media screen and (max-width: 768px) {
   .sideWrap{
@@ -656,6 +893,17 @@ transition-property: width, left;
   .packet-documentation .packet .card{
     width: 45%;
     padding: 15px;
+  }
+
+  .packet-website .content .card-content .card{
+    width: calc(50% - 18px);
+    text-align: center;
+    padding: 30px 15px;
+    position: relative;
+    z-index: 1;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
   }
 
 }
@@ -807,6 +1055,62 @@ transition-property: width, left;
   width: 70%;
   padding: 15px;
 }
+
+.packet-website::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #A4DDED;
+  box-shadow: 0 14px 0 0 #E5B80B;
+  right: 0;
+  top: 120px;
+}
+
+.packet-website .content .card-content{
+  gap: 50px;
+}
+
+.packet-website .content .card-content .card{
+  width: 80%;
+}
+
+.packet-website .content .card-content .card::after{
+  position: absolute;
+  content: "";
+  background-image: url('../src/assets/img/double-down-gold.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  bottom: -5px;
+  left: 45%;
+  z-index: 0 !important;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+@keyframes loop{
+  0% {bottom: -30px;}
+  50% {bottom: -35px}
+  100% {bottom: -30px}
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left small{
+  font-size: 14px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left h1{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left p{
+  width: 100%;
+}
+
 }
 
 @media screen and (max-width: 380px) {
@@ -914,5 +1218,26 @@ transition-property: width, left;
 .packet-documentation .packet .card{
   width: 90%;
   padding: 15px;
+}
+
+.packet-website::after{
+  display: none;
+}
+
+.packet-website .content .card-content .card{
+  width: 95%;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left h1{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text-left p{
+  width: 100%;
+  font-size: 14px;
+  margin: 15px 0 35px 0;
 }
 }

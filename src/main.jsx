@@ -12,6 +12,8 @@ import Landing from './pages/Landing.jsx';
 import Documentation from './pages/Documentation.jsx';
 import PacketDocumentation from './pages/PacketDocumentation.jsx';
 
+import WebsitePage from "./pages/WebsitePage.jsx"
+
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/documentation/packet',
     element: <PacketDocumentation />
+  },
+  {
+    path: '/website/packet',
+    element: <WebsitePage />
   }
 ]);
 

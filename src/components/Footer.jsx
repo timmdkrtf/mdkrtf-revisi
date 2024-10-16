@@ -1,7 +1,6 @@
-import React from "react";
 import { FaTiktok } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { BsInstagram } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import logo1 from "../assets/img/mdkrtf-putih.png";
 import { MdEmail } from "react-icons/md";
@@ -38,7 +37,7 @@ const Footer = () => {
                 <FaTiktok />
               </Nav.Link>
               <Nav.Link href="https://instagram.com/mdkrtf" className="text-white fs-3 me-1">
-                <FaSquareInstagram />
+                <BsInstagram />
               </Nav.Link>
               <Nav.Link href="https://api.whatsapp.com/send?phone=6281211118457" className="text-white fs-3">
                 <IoLogoWhatsapp />
