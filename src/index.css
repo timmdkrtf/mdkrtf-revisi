@@ -773,7 +773,7 @@ transition-property: width, left;
 
   .packet-website .portfolio {
     margin: 50px 0;
-    padding: 80px 0 50px 0;
+    padding: 50px 0;
 }
 
   .packet-website::after{
@@ -800,12 +800,34 @@ transition-property: width, left;
 
   .packet-website .content .card-content{
     flex-wrap: wrap;
+    gap: 40px 25px;
+  }
+
+  .packet-website .content .card-content .card::after{
+    position: absolute;
+    content: "";
+    background-image: url('../src/assets/img/double-down-gold.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    bottom: -35px;
+    left: 43%;
+    z-index: 0 !important;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  @keyframes loop{
+    0% {bottom: -35px;}
+    50% {bottom: -40px}
+    100% {bottom: -35px}
   }
 
   .packet-website .portfolio .portfolio-flex .content{
     flex-direction: column;
     gap: 50px;
-    padding: 0 10px;
+    padding: 100px 10px 0 10px;
   }
 
   .packet-website .portfolio .portfolio-flex .content .text-left{
