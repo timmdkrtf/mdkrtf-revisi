@@ -771,6 +771,11 @@ transition-property: width, left;
     padding: 15px;
   }
 
+  .packet-website .portfolio {
+    margin: 50px 0;
+    padding: 80px 0 50px 0;
+}
+
   .packet-website::after{
     content: "";
     position: absolute;
