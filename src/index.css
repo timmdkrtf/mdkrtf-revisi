@@ -532,26 +532,27 @@ transition-property: width, left;
 }
 
 .packet-website .portfolio .portfolio-flex .content{
-  display: flex;
-  justify-content: space-between;
   padding: 80px 0 0 0;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left{
-  width: 48%;
-  padding: 70px 0;
+.packet-website .portfolio .portfolio-flex .content .text{
+  width: 80%;
+  padding: 80px 0 70px 0;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left small{
+.packet-website .portfolio .portfolio-flex .content .text small{
   font-family: "Open Sans", sans-serif;
   position: relative;
   display: inline-block;
   margin: 0 0 0 25px;
   padding: 2px 5px;
   box-shadow: 0 2px 0 0 #A4DDED;
+  font-size: 12px;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left small::before{
+.packet-website .portfolio .portfolio-flex .content .text small::before{
   content: "";
   position: absolute;
   width: 20px;
@@ -562,46 +563,65 @@ transition-property: width, left;
   left: -25px;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left h1{
+.packet-website .portfolio .portfolio-flex .content .text small::after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #A4DDED;
+  top: 50%;
+  right: -25px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text h1{
   font-family: "League Spartan", sans-serif;
   font-weight: 600;
-  font-size: 42px;
-  margin-top: 10px;
+  font-size: 50px;
+  margin-top: 20px;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left p{
+.packet-website .portfolio .portfolio-flex .content .text p{
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  margin: 15px 0 50px 0;
-  width: 85%;
+  font-size: 14px;
+  margin: 20px auto 60px auto;
+  opacity: 0.7;
+  width: 60%;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left button{
+.packet-website .portfolio .portfolio-flex .content .text button{
   font-family: "Open Sans", sans-serif;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #E5B80B;
-  font-weight: 500;
-  color: #FFFFFF;
-  transition: 0.3s;
-}
-
-.packet-website .portfolio .portfolio-flex .content .text-left button:hover{
-  box-shadow: 0 4px 0 0 #A4DDED;
-  border: 1px solid #E5B80B;
+  box-shadow: 0 2px 0 0 #A4DDED;
+  border: 2px solid #E5B80B;
   background-color: #FFFFFF;
   color: #000000;
+  opacity: 0.9;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text button:hover{
   font-weight: 600;
+  border: 1px solid #E5B80B;
+  box-shadow: 4px 4px 0 0 #A4DDED, -1px -1px 0 0 #A4DDED;
+  opacity: 1;
 }
 
-.packet-website .portfolio .portfolio-flex .content .img-right{
-  width: 48%;
-  text-align: end;
+.packet-website .portfolio .portfolio-flex .content .content-portfolio .slick-slider{
+  text-align: center;
+  margin: 20px 0 0 0;
 }
 
-.packet-website .portfolio .portfolio-flex .content .img-right img{
-  width: 90%;
+.packet-website .portfolio .portfolio-flex .content .content-portfolio .slick-slider img{
+  width: 95% !important;
+  margin: 0 auto;
+  height: 275px;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 196, 196);
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1200px) {
@@ -653,10 +673,6 @@ transition-property: width, left;
 
   .packet-website .content .card-content .card::after{
     left: 41%;
-  }
-
-  .packet-website .portfolio .portfolio-flex .content .img-right img{
-    width: 100%;
   }
 
 }
@@ -830,14 +846,9 @@ transition-property: width, left;
     padding: 100px 10px 0 10px;
   }
 
-  .packet-website .portfolio .portfolio-flex .content .text-left{
+  .packet-website .portfolio .portfolio-flex .content .text{
     width: 100%;
     padding: 0;
-  }
-
-  .packet-website .portfolio .portfolio-flex .content .img-right{
-    width: 100%;
-    text-align: end;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1123,18 +1134,18 @@ transition-property: width, left;
   100% {bottom: -30px}
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left small{
+.packet-website .portfolio .portfolio-flex .content .text small{
   font-size: 14px;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left h1{
+.packet-website .portfolio .portfolio-flex .content .text h1{
   font-family: "League Spartan", sans-serif;
   font-weight: 600;
   font-size: 36px;
   margin-top: 10px;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left p{
+.packet-website .portfolio .portfolio-flex .content .text p{
   width: 100%;
 }
 
@@ -1255,14 +1266,14 @@ transition-property: width, left;
   width: 95%;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left h1{
+.packet-website .portfolio .portfolio-flex .content .text h1{
   font-family: "League Spartan", sans-serif;
   font-weight: 600;
   font-size: 28px;
   margin-top: 10px;
 }
 
-.packet-website .portfolio .portfolio-flex .content .text-left p{
+.packet-website .portfolio .portfolio-flex .content .text p{
   width: 100%;
   font-size: 14px;
   margin: 15px 0 35px 0;
