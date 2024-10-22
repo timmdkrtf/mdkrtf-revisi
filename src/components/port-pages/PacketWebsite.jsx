@@ -55,6 +55,22 @@ function PacketWebsite() {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                centerMode: true,
+              }
+            },
+            {
+              breakpoint: 400,
+              settings: {
+                slidesToShow: 1,
+                centerMode: false,
+              }
+            },
+          ]
       };
 
     return (
@@ -112,7 +128,7 @@ function PacketWebsite() {
                         <div className='content desain' id="portfolio-desain" style={{ display: activePortfolio === 'desain' ? 'block' : 'none' }}>
                             <div className='text'>
                                 <small>Desain Website</small>
-                                <h1>Jadikan Websitemu Sesuai dengan Keinginanmu</h1>
+                                <h1>Jadikan <span>Websitemu</span> Sesuai dengan Keinginanmu</h1>
                                 <p>Kamu dapat menyesuaikan desain yang kamu inginkan untuk ada di web kamu. Kamu akan mendapatkan desain yang menarik, responsive, dan sesuai</p>
                                 <a href="https://api.whatsapp.com/send?phone=6281211118457&text=Halo%20Mdkrtf%2C%20saya%20tertarik%20dengan%20paket%20desain%20Website" target="_blank" style={{textDecoration: "none", color:"white"}}><button>Hubungi Sekarang!</button></a>
                             </div>
@@ -130,7 +146,7 @@ function PacketWebsite() {
                         <div className='content landing-page' id="portfolio-landing" style={{ display: activePortfolio === 'landing' ? 'block' : 'none' }}>
                             <div className='text'>
                                 <small>Website Landing Page</small>
-                                <h1>Bangun Website Simple untuk Kebutuhanmu</h1>
+                                <h1>Bangun <span>Website</span> Simple untuk Kebutuhanmu</h1>
                                 <p>Kamu akan mendapatkan website landing page yang akan menyesuaikan dengan kebutuhanmu. Landing page ini bisa untuk portfolio, bisnis kamu, company profile, dan masih banyak lagi</p>
                                 <a href="https://api.whatsapp.com/send?phone=6281211118457&text=Halo%20Mdkrtf%2C%20saya%20tertarik%20dengan%20paket%20website%20landing%20Page" target="_blank" style={{textDecoration: "none", color:"white"}}><button>Hubungi Sekarang!</button></a>
                             </div>
@@ -148,7 +164,7 @@ function PacketWebsite() {
                         <div className='content web-system' id="portfolio-web-system" style={{ display: activePortfolio === 'web-system' ? 'block' : 'none' }}>
                             <div className='text'>
                                 <small>Website Sistem</small>
-                                <h1>Buat Bisnismu dapat Diakses Secara Online</h1>
+                                <h1>Buat <span>Bisnismu</span> dapat Diakses Secara Online</h1>
                                 <p>Kamu akan mendapatkan website dengan fitur dan penggunaan yang sesuai dengan kebutuhanmu. Kami akan bersedia membantu dalam pengembangan, instruksi, serta pemeliharaan website.</p>
                                 <a href="https://api.whatsapp.com/send?phone=6281211118457&text=Halo%20Mdkrtf%2C%20saya%20tertarik%20dengan%20paket%20website%20sistem" target="_blank" style={{textDecoration: "none", color:"white"}}><button>Hubungi Sekarang!</button></a>
                             </div>
@@ -166,7 +182,7 @@ function PacketWebsite() {
                         <div className='content pernikahan' id="portfolio-wedding" style={{ display: activePortfolio === 'wedding' ? 'block' : 'none' }}>
                             <div className='text'>
                                 <small>Website Undangan Digital</small>
-                                <h1>Buat Undangan Pernikahanmu Lebih Fleksibel</h1>
+                                <h1>Buat <span>Undangan</span> Pernikahanmu Lebih Fleksibel</h1>
                                 <p>Pernikahan kamu akan lebih modern dan kekinian dengan website pernikahan. Hanya dalam waktu kurang dari 2 hari saja lohh.</p>
                                 <a href="https://api.whatsapp.com/send?phone=6281211118457&text=Halo%20Mdkrtf%2C%20saya%20tertarik%20dengan%20paket%20website%20undangan%20pernikahan" target="_blank" style={{textDecoration: "none", color:"white"}}><button>Hubungi Sekarang!</button></a>
                             </div>

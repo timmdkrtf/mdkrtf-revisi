@@ -463,6 +463,18 @@ transition-property: width, left;
   position: relative;
 }
 
+.packet-website .content .card-content::after{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/img/circle-group-goldblue.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 100px;
+  left: -30px;
+  bottom: -130px;
+}
+
 .packet-website .content .card-content .card{
   width: calc(25% - 18px);
   text-align: center;
@@ -518,7 +530,6 @@ transition-property: width, left;
 .packet-website .content .card-content .card h5{
   font-family: "League Spartan", sans-serif;
   margin: 30px 0 15px 0;
-
 }
 
 .packet-website .content .card-content .card p{
@@ -536,7 +547,7 @@ transition-property: width, left;
 }
 
 .packet-website .portfolio .portfolio-flex .content .text{
-  width: 80%;
+  width: 75%;
   padding: 80px 0 70px 0;
   text-align: center;
   margin: 0 auto;
@@ -546,7 +557,6 @@ transition-property: width, left;
   font-family: "Open Sans", sans-serif;
   position: relative;
   display: inline-block;
-  margin: 0 0 0 25px;
   padding: 2px 5px;
   box-shadow: 0 2px 0 0 #A4DDED;
   font-size: 12px;
@@ -576,9 +586,13 @@ transition-property: width, left;
 
 .packet-website .portfolio .portfolio-flex .content .text h1{
   font-family: "League Spartan", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 50px;
   margin-top: 20px;
+}
+
+.packet-website .portfolio .portfolio-flex .content .text h1 span{
+  text-decoration: underline #A4DDED;
 }
 
 .packet-website .portfolio .portfolio-flex .content .text p{
@@ -618,7 +632,7 @@ transition-property: width, left;
 .packet-website .portfolio .portfolio-flex .content .content-portfolio .slick-slider img{
   width: 95% !important;
   margin: 0 auto;
-  height: 275px;
+  height: 100%;
   border-radius: 10px;
   border: 1px solid rgb(196, 196, 196);
   object-fit: contain;
@@ -673,6 +687,10 @@ transition-property: width, left;
 
   .packet-website .content .card-content .card::after{
     left: 41%;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content .text{
+    width: 85%;
   }
 
 }
@@ -850,6 +868,20 @@ transition-property: width, left;
     width: 100%;
     padding: 0;
   }
+
+  .packet-website .portfolio .portfolio-flex .content .text h1{
+    font-size: 45px;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content .text p{
+    width: 80%;
+  }
+
+  .packet-website .portfolio .portfolio-flex .content .content-portfolio .slick-slider{
+    text-align: center;
+    margin: 70px 0 0 0;
+  }
+
 }
 @media screen and (max-width: 768px) {
   .sideWrap{
@@ -942,6 +974,18 @@ transition-property: width, left;
     background-color: #FFFFFF;
     cursor: pointer;
     transition: 0.3s;
+  }
+
+  .packet-website .content .card-content::after{
+    content: "";
+    position: absolute;
+    background-image: url('../src/assets/img/circle-group-goldblue.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    bottom: -120px;
   }
 
 }
