@@ -13,7 +13,8 @@ const Footer = () => {
       <Container>
         <Row className="justify-content-between align-items-center" style={{fontFamily: "'League Spartan', sans-serif"}}>
           <Col md={6} className="py-4">
-            <img src={logo1} className="w-25" alt="MDKRTF Logo" />
+            <img src={logo1} className="w-25 mb-1" alt="MDKRTF Logo" /><br/>
+            <small className="opacity-75" style={{ fontSize:"13px" }}>by Abdi Media Kreatif</small>
             <div className="mt-3">
               <div className="mb-2">
                 Jl. Aria Surialaga No.83, Kota Bogor
@@ -47,7 +48,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col className="text-center">
-            <p className="mb-0">© 2024 PT Abdi Media Kreatif &middot; All Rights Reserved</p>
+            <p className="mb-0 opacity-75">© 2024 PT Abdi Media Kreatif &middot; All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
