@@ -17,11 +17,15 @@ const Footer = () => {
             <small className="opacity-75" style={{ fontSize:"13px" }}>by Abdi Media Kreatif</small>
             <div className="mt-3">
               <div className="mb-2">
-                Jl. Aria Surialaga No.83, Kota Bogor
+                <a href="https://maps.app.goo.gl/J3i1sZqJiwDY7s9v9" target="_blank" className="text-white text-decoration-none">Jl. Aria Surialaga No.83, Kota Bogor 16119</a>
               </div>
               <div className="d-flex align-items-center mb-2">
                 <MdLocalPhone className="me-2" />
-                <a href="" className="text-white text-decoration-none">+62 251 8632 170</a>
+                <a href="tel:+622518632170" className="text-white text-decoration-none">+62 251 8632 170</a>
+              </div>
+              <div className="d-flex align-items-center mb-2">
+              <IoLogoWhatsapp className="me-2" />
+                <a href="https://api.whatsapp.com/send?phone=6281211118457" className="text-white text-decoration-none">+62 812 1111 8457</a>
               </div>
               <div className="d-flex align-items-center">
                 <MdEmail className="me-2" />
@@ -39,9 +43,6 @@ const Footer = () => {
               </Nav.Link>
               <Nav.Link href="https://instagram.com/mdkrtf" className="text-white fs-3 me-1">
                 <BsInstagram />
-              </Nav.Link>
-              <Nav.Link href="https://api.whatsapp.com/send?phone=6281211118457" className="text-white fs-3">
-                <IoLogoWhatsapp />
               </Nav.Link>
             </Nav>
           </Col>
