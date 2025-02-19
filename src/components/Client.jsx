@@ -13,6 +13,8 @@ import realtour from "../assets/img/realtour.png";
 import AYP from "../assets/img/1. AYP Logo Primary (P).png";
 import TMC from "../assets/img/1. TMC Logo Primary (P).png";
 import TMF from "../assets/img/1. TMF Logo Primary (P).png";
+import aka from "../assets/img/AKA.png";
+import ask from "../assets/img/ASK.png";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
@@ -94,7 +96,9 @@ const Client = () => {
                 <SwiperSlide className="nyamanin"><img src={nyamanin} alt="nyamanin" /></SwiperSlide>
                 <SwiperSlide className="realtour"><img src={realtour} alt="realtour" /></SwiperSlide>
                 <SwiperSlide className="AYP"><img src={AYP} alt="AYP" /></SwiperSlide>
+                <SwiperSlide className="ask"><img src={ask} alt="ask" /></SwiperSlide>
                 <SwiperSlide className="TMC"><img src={TMC} alt="TMC" /></SwiperSlide>
+                <SwiperSlide className="aka"><img src={aka} alt="aka" /></SwiperSlide>
                 <SwiperSlide className="TMF"><img src={TMF} alt="TMF" /></SwiperSlide>
             </Swiper>
         </section>

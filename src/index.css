@@ -157,6 +157,14 @@ transition-property: width, left;
   object-fit: contain;
 }
 
+.aka img,
+.ask img {
+  width: 160px;
+  height: 140px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
 .slider-for {
   width: 65%;
   margin: 0 auto;
@@ -693,6 +701,14 @@ transition-property: width, left;
     width: 85%;
   }
 
+  .aka img,
+  .ask img {
+    width: 160px;
+    height: 140px;
+    object-fit: contain;
+    margin-top: 7px;
+  }
+
 }
 @media screen and (max-width: 976px) {
   .sideWrap{
@@ -1070,6 +1086,12 @@ transition-property: width, left;
   height: 130px;
   object-fit: contain;
   margin-top: 5px;
+}
+
+.aka img,
+.ask img {
+  object-fit: contain;
+  margin-top: 7px;
 }
 
 .about .fs-5.fw-light.py-4{
