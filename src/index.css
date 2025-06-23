@@ -267,6 +267,10 @@ transition-property: width, left;
   height: auto;
 }
 
+#portfolio{
+  padding-bottom: 50px !important;
+}
+
 #portfolio .py-5{
   padding-top: 6rem !important;
 }
@@ -646,6 +650,110 @@ transition-property: width, left;
   object-fit: contain;
 }
 
+.sosmed-portfolio{
+  position: relative;
+  padding: 80px 0;
+  background-image: url('../src/assets/img/bg-5.png');
+}
+
+.sosmed-portfolio::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 0;
+  z-index: 0;
+}
+
+.sosmed-portfolio::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 51%, rgba(0, 0, 0, 0) 100%);
+  z-index: 1;
+  top: 0;
+}
+
+.sosmed-portfolio .row h2{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin: 50px 0 70px 0;
+  position: relative;
+  z-index: 2;
+  color: #FFFFFF;
+}
+
+.sosmed-portfolio .row h2 .sc{
+  position: relative;
+}
+.sosmed-portfolio .row h2 .sc::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #5E17EB;
+  bottom: -4px;
+  left: 0;
+}
+
+.sosmed-portfolio .row h2 .port{
+  color: #5E17EB;
+  background-color: #FFFFFF;
+  padding: 6px 6px 0 6px;
+  font-weight: 500;
+}
+
+.sosmed-portfolio .row .content{
+  gap: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.sosmed-portfolio .row .content a{
+  width: calc(50% - 40px);
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.sosmed-portfolio .row .content a:hover{
+  transform: scale(1.05);
+}
+
+.sosmed-portfolio .row .content a::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: #ffffff;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 51%, rgba(255, 255, 255, 0) 100%);
+  border-bottom: 5px solid #5E17EB;
+}
+
+.sosmed-portfolio .row .content a p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  margin: -32px 0 0 0;
+  padding: 0 0 15px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.sosmed-portfolio .row .content img{
+  width: 100%;
+}
+
 footer small{
   color: white;
   opacity: 0.6;
@@ -916,6 +1024,20 @@ footer .text-end{
     margin: 70px 0 0 0;
   }
 
+  .sosmed-portfolio .row .content{
+    gap: 50px;
+  }
+
+  .sosmed-portfolio .row .content a{
+    width: calc(50% - 25px);
+  }
+
+  .sosmed-portfolio .row .content a p{
+    font-size: 12px;
+    margin: -28px 0 0 0;
+    padding: 0 0 10px 0;
+  }
+
 }
 @media screen and (max-width: 768px) {
   .sideWrap{
@@ -1022,6 +1144,12 @@ footer .text-end{
     bottom: -120px;
   }
 
+  .sosmed-portfolio .row .content a{
+    width: 90%;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1366,4 +1494,14 @@ footer .text-end{
   font-size: 14px;
   margin: 15px 0 35px 0;
 }
+
+.sosmed-portfolio .row h2{
+  line-height: 55px;
+}
+
+  .sosmed-portfolio .row .content a p{
+    font-size: 10px;
+    margin: -23px 0 0 0;
+    padding: 0 0 10px 0;
+  }
 }

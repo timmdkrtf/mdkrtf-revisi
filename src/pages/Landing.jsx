@@ -4,6 +4,7 @@ import Client from "../components/Client";
 import Product from "../components/Product";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
+import SosmedPortfolio from "../components/SosmedPortfolio";
 import Footer from "../components/Footer";
 import ScrollTop from "../components/ScrollTop"
 
@@ -17,6 +18,7 @@ export default function Landing(){
             <Product id={Product} />
             <About id={About} />
             <Portfolio id={Portfolio} />
+            <SosmedPortfolio />
             <Footer id={Footer} />
         </div>
     );

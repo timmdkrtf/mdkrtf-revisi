@@ -35,7 +35,6 @@ const Client = () => {
         const swiperInstance = swiperRef.current?.swiper;
         
         if (swiperInstance) {
-            // Tambahkan event listener ke tombol navigasi
             const nextButton = document.querySelector('.swiper-button-next');
             const prevButton = document.querySelector('.swiper-button-prev');
 

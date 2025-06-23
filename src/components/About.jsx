@@ -31,7 +31,7 @@ const About = () => {
             </div>
             <div>
               <h2 className="display-3 fw-bold" style={{color:"#5E17EB", fontFamily: "'League Spartan', sans-serif"}}>
-                {counterState && <CountUp start={0} end={7} duration={2.75} />}+
+                {counterState && <CountUp start={0} end={20} duration={2.75} />}+
               </h2>
               <p className="text-secondary" style={{fontFamily: "'Open Sans', sans-serif"}}>Clients</p>
             </div>
