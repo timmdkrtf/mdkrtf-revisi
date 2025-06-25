@@ -20,9 +20,9 @@ import cimandala from "../assets/img/Logo_SDN_Cimandala_03.png";
 import kittun from "../assets/img/kittun.png";
 import warungHagia from "../assets/img/warung-hagia.png";
 import kopiJalpin from "../assets/img/kopi-jalpin.png";
-import IKA from "../assets/img/Logo_IKA.png";
+import IKA from "../assets/img/18.png";
 import AlInayah from "../assets/img/Logo-MTs.Al-Inayah.png";
-import TarunaAndigha from "../assets/img/taruna-andigha.png";
+import TarunaAndigha from "../assets/img/17.png";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
@@ -108,6 +108,7 @@ const Client = () => {
                 <SwiperSlide className="halakah"><img src={AlInayah} alt="Al Inayah" /></SwiperSlide>
                 <SwiperSlide className="AYP"><img src={AYP} alt="AYP" /></SwiperSlide>
                 <SwiperSlide className="apostrof"><img src={kopiJalpin} alt="kopi jalan pintas" /></SwiperSlide>
+                <SwiperSlide className="apostrof"><img src={warungHagia} alt="warung hagia" /></SwiperSlide>
                 <SwiperSlide className="ask"><img src={ask} alt="ask" /></SwiperSlide>
                 <SwiperSlide className="habatour"><img src={kittun} alt="kittun" /></SwiperSlide>
                 <SwiperSlide className="TMC"><img src={TMC} alt="TMC" /></SwiperSlide>
