@@ -113,7 +113,7 @@ const Client = () => {
                 <SwiperSlide className="habatour"><img src={kittun} alt="kittun" /></SwiperSlide>
                 <SwiperSlide className="TMC"><img src={TMC} alt="TMC" /></SwiperSlide>
                 <SwiperSlide className="aka"><img src={aka} alt="aka" /></SwiperSlide>
-                <SwiperSlide className="apostrof"><img src={IKA} alt="IKA" style={{ filter: "drop-shadow(0 0 5px rgba(0, 0, 0, 1))" }} /></SwiperSlide>
+                <SwiperSlide className="apostrof"><img src={IKA} alt="IKA"/></SwiperSlide>
                 <SwiperSlide className="halakah"><img src={halakah} alt="halakah" /></SwiperSlide>
                 <SwiperSlide className="TMF"><img src={TMF} alt="TMF" /></SwiperSlide>
             </Swiper>
