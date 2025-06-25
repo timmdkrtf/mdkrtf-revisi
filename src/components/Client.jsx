@@ -98,6 +98,7 @@ const Client = () => {
                 <SwiperSlide className="apostrof"><img src={apostrof} alt="apostrof" /></SwiperSlide>
                 <SwiperSlide className="apostrof"><img src={cimandala} alt="cimandala" /></SwiperSlide>
                 <SwiperSlide className="halakah"><img src={TarunaAndigha} alt="Taruna Andigha" /></SwiperSlide>
+                <SwiperSlide className="halakah"><img src={AlInayah} alt="Al Inayah" /></SwiperSlide>
                 <SwiperSlide className="bahana"><img src={bahama} alt="bahana" /></SwiperSlide>
                 <SwiperSlide className="habatour"><img src={habatour} alt="habatour" /></SwiperSlide>
                 <SwiperSlide className="habatour"><img src={skina} alt="skina" /></SwiperSlide>
@@ -105,7 +106,6 @@ const Client = () => {
                 <SwiperSlide className="kronika"><img src={kronika} alt="kronika" /></SwiperSlide>
                 <SwiperSlide className="nyamanin"><img src={nyamanin} alt="nyamanin" /></SwiperSlide>
                 <SwiperSlide className="realtour"><img src={realtour} alt="realtour" /></SwiperSlide>
-                <SwiperSlide className="halakah"><img src={AlInayah} alt="Al Inayah" /></SwiperSlide>
                 <SwiperSlide className="AYP"><img src={AYP} alt="AYP" /></SwiperSlide>
                 <SwiperSlide className="apostrof"><img src={kopiJalpin} alt="kopi jalan pintas" /></SwiperSlide>
                 <SwiperSlide className="apostrof"><img src={warungHagia} alt="warung hagia" /></SwiperSlide>
